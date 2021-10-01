@@ -155,7 +155,7 @@ void TaskAnalogRead(void *pvParameters)  // This is a task.
 
     int sensorValue = analogRead(POTE);
 
-    Serial.print("---> Pote: ");
+    Serial.print("---> Potenciometro: ");
     Serial.println(sensorValue);
     vTaskDelay(100);
   }
