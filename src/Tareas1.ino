@@ -86,7 +86,7 @@ void setup()
 void loop()
 {
   // Empty. Things are done in Tasks.
-  //Serial.println("---> Soy el loop !");
+  Serial.println("---> Soy el loop !");
 }
 
 ///////////////////////////////////// DEFINICIÓN DE LAS TAREAS ///////////////////////////////////////////////////
